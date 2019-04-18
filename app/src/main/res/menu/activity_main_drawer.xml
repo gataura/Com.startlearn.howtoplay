@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+
+    <item android:title="Статьи">
+        <menu>
+            <item
+                android:id="@+id/ma1"
+                android:icon="@drawable/menu3"
+                android:title="Урок 1-й" />
+            <item
+                android:id="@+id/ma2"
+                android:icon="@drawable/menu3"
+                android:title="Урок 2-й" />
+            <item
+                android:id="@+id/ma3"
+                android:icon="@drawable/menu3"
+                android:title="Урок 3-й" />
+            <item
+                android:id="@+id/ma4"
+                android:icon="@drawable/menu3"
+                android:title="Урок 4-й" />
+            <item
+                android:id="@+id/ma5"
+                android:icon="@drawable/menu3"
+                android:title="Урок 5-й" />
+            <item
+                android:id="@+id/ma6"
+                android:icon="@drawable/menu3"
+                android:title="Урок 6-й" />
+            <item
+                android:id="@+id/ma7"
+                android:icon="@drawable/menu3"
+                android:title="Урок 7-й" />
+            <item
+                android:id="@+id/ma8"
+                android:icon="@drawable/menu3"
+                android:title="Урок 8-й" />
+            <item
+                android:id="@+id/ma9"
+                android:icon="@drawable/menu3"
+                android:title="Урок 9-й" />
+            <item
+                android:id="@+id/ma10"
+                android:icon="@drawable/menu3"
+                android:title="Урок 10-й" />
+            <item
+                android:id="@+id/ma11"
+                android:icon="@drawable/menu3"
+                android:title="Урок 11-й" />
+        </menu>
+    </item>
+
+</menu>

@@ -1,0 +1,35 @@
+{
+  "project_info": {
+    "project_number": "902123338259",
+    "firebase_url": "https://howtoplaypoker-7603f.firebaseio.com",
+    "project_id": "howtoplaypoker-7603f",
+    "storage_bucket": "howtoplaypoker-7603f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:902123338259:android:119e6305b3f3fe38",
+        "android_client_info": {
+          "package_name": "poker.comstartlearnhowtoplay"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBJFpZThkDr3xL4hm3PGh2iDsgoIFvErps"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "902123338259-fu4qtob9lvo3mtqbbi7jd1fnqdgbls8o.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
