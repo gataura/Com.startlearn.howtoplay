@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="poker.comstartlearnhowtoplay">
+    package="com.playfun.pcard">
 
     <application
         android:allowBackup="true"
-        android:icon="@drawable/ico_poker"
+        android:icon="@drawable/icon_poker"
         android:label="@string/app_name"
-        android:roundIcon="@drawable/ico_poker"
+        android:roundIcon="@drawable/icon_poker"
         android:supportsRtl="true"
         android:usesCleartextTraffic="true"
         android:theme="@style/AppTheme"
         tools:ignore="GoogleAppIndexingWarning">
         <receiver
-            android:name="poker.comstartlearnhowtoplay.ReferrerDataReceiver"
+            android:name="com.playfun.pcard.ReferrerDataReceiver"
             android:enabled="true"
             android:exported="true">
             <intent-filter>
@@ -21,7 +21,7 @@
             </intent-filter>
         </receiver>
         <activity
-            android:name=".MainActivity"
+            android:name="com.playfun.pcard.MainActivity"
             android:label="@string/app_name"
             android:theme="@style/AppTheme.NoActionBar">
         </activity>
@@ -34,20 +34,20 @@
                 <data android:scheme="@string/fb_login_protocol_scheme" />
             </intent-filter>
         </activity>
-        <activity android:name=".articleActivity"/>
-        <activity android:name=".article2Activity"/>
-        <activity android:name=".article3Activity"/>
-        <activity android:name=".article4Activity"/>
-        <activity android:name=".article5Activity"/>
-        <activity android:name=".article6Activity"/>
-        <activity android:name=".article7Activity"/>
-        <activity android:name=".article8Activity"/>
-        <activity android:name=".article9Activity"/>
-        <activity android:name=".article10Activity"/>
-        <activity android:name=".article11Activity"/>
+        <activity android:name="com.playfun.pcard.LessonActivity"/>
+        <activity android:name="com.playfun.pcard.Lesson2Activity"/>
+        <activity android:name="com.playfun.pcard.Lesson3Activity"/>
+        <activity android:name="com.playfun.pcard.Lesson4Activity"/>
+        <activity android:name="com.playfun.pcard.Lesson5Activity"/>
+        <activity android:name="com.playfun.pcard.Lesson6Activity"/>
+        <activity android:name="com.playfun.pcard.Lesson7Activity"/>
+        <activity android:name="com.playfun.pcard.Lesson8Activity"/>
+        <activity android:name="com.playfun.pcard.Lesson9Activity"/>
+        <activity android:name="com.playfun.pcard.Lesson10Activity"/>
+        <activity android:name="com.playfun.pcard.Lesson11Activity"/>
         <activity
             android:launchMode="singleTask"
-            android:name="poker.comstartlearnhowtoplay.ui.SplashActivity"
+            android:name="com.playfun.pcard.ui.SplashActivity"
             android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
@@ -56,13 +56,13 @@
             </intent-filter>
         </activity>
 
-        <activity android:name="poker.comstartlearnhowtoplay.ui.WebViewActivity"
+        <activity android:name="com.playfun.pcard.ui.WebViewActivity"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar"
             android:launchMode="singleTask">
         </activity>
 
-        <activity android:name="poker.comstartlearnhowtoplay.ui.DeepLinkWebView"
+        <activity android:name="com.playfun.pcard.ui.DeepLinkWebView"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar"
             android:launchMode="singleTask">
@@ -78,7 +78,7 @@
             </intent-filter>
         </activity>
 
-        <activity android:name="poker.comstartlearnhowtoplay.ui.ContentActivity"
+        <activity android:name="com.playfun.pcard.ui.ContentActivity"
             android:screenOrientation="portrait"
             android:launchMode="singleTask"/>
     </application>

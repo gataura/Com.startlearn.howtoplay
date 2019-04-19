@@ -6,47 +6,47 @@
     <item android:title="Статьи">
         <menu>
             <item
-                android:id="@+id/ma1"
+                android:id="@+id/art1"
                 android:icon="@drawable/menu3"
                 android:title="Урок 1-й" />
             <item
-                android:id="@+id/ma2"
+                android:id="@+id/art2"
                 android:icon="@drawable/menu3"
                 android:title="Урок 2-й" />
             <item
-                android:id="@+id/ma3"
+                android:id="@+id/art3"
                 android:icon="@drawable/menu3"
                 android:title="Урок 3-й" />
             <item
-                android:id="@+id/ma4"
+                android:id="@+id/art4"
                 android:icon="@drawable/menu3"
                 android:title="Урок 4-й" />
             <item
-                android:id="@+id/ma5"
+                android:id="@+id/art5"
                 android:icon="@drawable/menu3"
                 android:title="Урок 5-й" />
             <item
-                android:id="@+id/ma6"
+                android:id="@+id/art6"
                 android:icon="@drawable/menu3"
                 android:title="Урок 6-й" />
             <item
-                android:id="@+id/ma7"
+                android:id="@+id/art7"
                 android:icon="@drawable/menu3"
                 android:title="Урок 7-й" />
             <item
-                android:id="@+id/ma8"
+                android:id="@+id/art8"
                 android:icon="@drawable/menu3"
                 android:title="Урок 8-й" />
             <item
-                android:id="@+id/ma9"
+                android:id="@+id/art9"
                 android:icon="@drawable/menu3"
                 android:title="Урок 9-й" />
             <item
-                android:id="@+id/ma10"
+                android:id="@+id/art10"
                 android:icon="@drawable/menu3"
                 android:title="Урок 10-й" />
             <item
-                android:id="@+id/ma11"
+                android:id="@+id/art11"
                 android:icon="@drawable/menu3"
                 android:title="Урок 11-й" />
         </menu>
